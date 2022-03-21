@@ -71,3 +71,4 @@ return l.filter( str => typeof str != 'string');
   
  * English - A1+ 
  * Russian - С1+
+ * 
