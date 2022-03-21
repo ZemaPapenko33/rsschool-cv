@@ -1,0 +1,10 @@
+body
+{
+    margin: 30px;
+}
+.container 
+{
+    height: 100px;
+    background-color: cadetblue;
+    border-radius: 0 0 10px 10px;
+}
