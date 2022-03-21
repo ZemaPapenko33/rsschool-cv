@@ -18,7 +18,7 @@
 
  *why design? It is always interesting to create your own design, it is the interest and interest that attracts me to design*
 
- *my learning goals are to finish learning JS and React, and then learn Node, because I want to become a ***Full Stack developer***
+ *my learning goals are to finish learning JS and React, and then learn Node, because I want to become a **Full Stack developer***
 
  *****
  **Skills & Proficiency:**
@@ -71,4 +71,4 @@ return l.filter( str => typeof str != 'string');
   
  * English - A1+ 
  * Russian - С1+
- * 
+ 
