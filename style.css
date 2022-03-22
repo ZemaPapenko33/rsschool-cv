@@ -3,10 +3,19 @@ body
     margin: 0 30px 0 30px;
     background-color:rgb(7, 7, 7)
 }
-.container 
+.upblock
 {
     display: flex;
     height: 100px;
     background-color: cadetblue;
+    border-radius: 0 0 10px 0;
+}
+.information
+{
+    display: flex;
+    height: 100px;
+    width: 50%;
+    background-color: aqua;
     border-radius: 0 0 10px 10px;
+
 }
