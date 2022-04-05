@@ -9,14 +9,12 @@ body
 .menu
 {
     display: flex;
-    position: fixed;
     left: 0; 
     right: 0;
     top: 0;
     height: 70px;
     background-color: cadetblue;
     color: white;
-    margin: 0 30px 0 30px;
     padding-left: auto;
     padding-right: auto;
     justify-content: center;
@@ -28,12 +26,17 @@ body
 .contacts
 {
     display: flex;
-    position: fixed;
     height: 90px;
     width: 450px;
-    margin-top: 70px;
     background-color:rgba(95, 158, 160, 0.521);
-    border-radius: 0 0 10px 10px;
+    
+}
+.photo
+{
+    display: flex;
+    height: 200px;
+    width: 450px;
+    background-color:rgba(95, 158, 160, 0.432);
     
 }
 .content 
@@ -51,4 +54,18 @@ body
 .menutext 
 {
     margin-left: 40px;
+}
+a
+{
+text-decoration: none;
+color: white;
+margin-left: 35px;
+margin-right: 35px;
+font-size: 50px;
+margin-top: 20px;
+}
+a:hover
+{
+color:gold;
+
 }
