@@ -15,7 +15,6 @@ body
     top: 0;
     height: 70px;
     background-color: cadetblue;
-    border-radius: 0 0 10px 0;
     color: white;
     margin: 0 30px 0 30px;
     padding-left: auto;
@@ -40,9 +39,12 @@ body
 .content 
 {   
     display: flex;
-    padding: left 450px;
+    height: 100%;
+    width: 855px;
     color: white;
-    background-color: aqua;
+    background-color: whitesmoke;
+    margin-top: 105px;
+    margin-left: 450px;
 
     
 }
