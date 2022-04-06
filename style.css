@@ -1,6 +1,6 @@
 body
 {   
-    padding: 0 30px 0 30px;
+    margin: 0 10px 0 10px;
     background-color:rgb(7, 7, 7)
     
 
@@ -21,16 +21,24 @@ body
     color: white;
     background-color: whitesmoke;
 }
+.sidebar
+{
+        max-height: 100%;
+}
 .menu
 {
     display: flex;
-    width: 100%;
+    position: sticky;
+    top:0;
     height: 100px;
-    background-color: cadetblue;
+    width:1330px;
+    border-radius: 0 0 10px 0;
+    background: linear-gradient(to top, rgb(61, 176, 180),rgb(164, 227, 230));
     color: white;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 35px;
+    box-sizing:border-box;
     
 }
 .contacts
@@ -38,19 +46,33 @@ body
     display: flex;
     height: 90px;
     width: 450px;
-    background-color:rgb(61, 176, 180);
-    margin-top: 100px;
+    background-color:rgba(61, 176, 180, 0.808);
     
 }
 .photo
 {
     display: flex;
-    height: 200px;
+    height: 400px;
     width: 450px;
     background-color:rgba(95, 158, 160, 0.432);
+    justify-content: center;
     
 }
-
+.photoMe
+{
+    border-radius: 50%;
+    padding: 50px;   
+}
+img
+{
+    position: relative; 
+    transition: 1s; 
+}
+img:hover 
+{
+    z-index: 10;
+    transform: scale(1.2); 
+}
 .menutext 
 {
     margin-left: 40px;
