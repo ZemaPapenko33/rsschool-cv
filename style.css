@@ -102,14 +102,7 @@ color:gold;
       max-height: 100%;
       max-width: 100%;
     }
-    .menu
-    {
-        display: none;
-        height: 0px;
-        width: 0px;
-        visibility: hidden;
-        font-size: 0px;
-    }
+    
     .contacts
     {
         font-size: 10px;
