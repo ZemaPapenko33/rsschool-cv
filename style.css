@@ -102,15 +102,19 @@ color:gold;
     }
     .menu
     {
-        font-size: 10px;
-        max-height:100%;
-        max-width: 100%;
+        height: 0px;
+        width:0 px;
     }
     .contacts
     {
         font-size: 10px;
         max-height:100%;
         max-width: 100%;
+    }
+    a 
+    {
+        margin-left: 10px;
+        margin-right: 10px;
     }
     .photo
     {
