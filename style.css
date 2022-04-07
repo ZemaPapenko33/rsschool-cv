@@ -21,31 +21,7 @@ body
     color: white;
     background-color: whitesmoke;
 }
-@media screen and (max-width: 575px) 
-{
-    .content {
-      flex-direction: column;
-      max-height:100%;
-      max-width: 100%;
-    }
-    .menu
-    {
-        font-size: 10px;
-        max-height:100%;
-        max-width: 100%;
-    }
-    .contacts
-    {
-        font-size: 10px;
-        max-height:100%;
-        max-width: 100%;
-    }
-    .menutext
-    {
-        
-        margin-left: 40px;
-    }
-}
+
 .sidebar
 {
         max-height: 100%;
@@ -115,4 +91,41 @@ margin-top: 20px;
 a:hover
 {
 color:gold;
+}
+@media screen and (max-width: 575px) 
+{
+    .content {
+      flex-direction: column;
+      flex:1;
+      max-height:100%;
+      max-width: 100%;
+    }
+    .menu
+    {
+        font-size: 10px;
+        max-height:100%;
+        max-width: 100%;
+    }
+    .contacts
+    {
+        font-size: 10px;
+        max-height:100%;
+        max-width: 100%;
+    }
+    .photo
+    {
+        max-height:100%;
+        max-width: 100%;
+    }
+    .photoMe
+    {
+        border-radius: 50%;
+        padding: 25px;   
+    }
+    .menutext
+    {
+        
+        margin-left: 40px;
+    }
+    
 }
