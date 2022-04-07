@@ -102,19 +102,18 @@ color:gold;
       max-height: 100%;
       max-width: 100%;
     }
-    
     .contacts
     {
         font-size: 10px;
-        height: 400px;
+        height: 200px;
         width: 575px;
         max-height:100%;
         max-width: 100%;
     }
     a 
     {
-        margin-left: 4px;
-        margin-right: 4px;
+        margin-left: 6px;
+        margin-right: 6px;
     }
     .photo
     {
