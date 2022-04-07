@@ -106,6 +106,7 @@ color:gold;
     {
         height: 0px;
         width: 0px;
+        visibility: hidden;
     }
     .contacts
     {
