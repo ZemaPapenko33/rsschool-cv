@@ -25,14 +25,15 @@ body
 .sidebar
 {
         max-height: 100%;
+        width:100%;
 }
 .menu
 {
     display: flex;
     position: sticky;
+    flex:1;
     top:0;
     height: 100px;
-    width:1330px;
     border-radius: 0 0 10px 0;
     background: linear-gradient(to top, rgb(61, 176, 180),rgb(164, 227, 230));
     color: white;
