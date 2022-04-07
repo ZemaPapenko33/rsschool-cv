@@ -111,12 +111,10 @@ color:gold;
 
 
 
-
-
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) 
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px)
 {
     .content {
-      flex-direction:row;
+      flex-direction: column;
       flex:1;
       height:100%;
       width: 575px;
