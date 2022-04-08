@@ -37,7 +37,7 @@ body
     border-radius: 0 0 10px 0;
     background: linear-gradient(to top, rgb(61, 176, 180),rgb(164, 227, 230));
     color: white;
-    justify-content: center;
+    justify-content:space-evenly;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 35px;
     box-sizing:border-box;
@@ -129,11 +129,12 @@ color:gold;
     }
     .contacts
     {   
+        position: sticky;
         font-size: 50%;
         height: 80px;
         width: 100%;
         max-width: 100%;
-        justify-content: center;
+        justify-content:space-evenly;
     }
     a 
     {
